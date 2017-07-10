@@ -1,0 +1,10 @@
+framework module Forge {
+  umbrella header "Forge.h"
+
+  export *
+  module * { export * }
+}
+
+module Forge.Swift {
+    header "Forge-Swift.h"
+}
